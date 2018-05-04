@@ -1,0 +1,88 @@
+*:focus {
+  outline: none;
+}
+
+.header {
+  background-color: #1E1F21;
+  height: 100%;
+  color: snow;
+  padding: 1em;
+  font-size: 1.4em;
+}
+
+.title {
+  opacity: .95;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 0px;
+  color: snow;
+  border-color: snow;
+  padding: .4em 1em .4em 1em;
+  margin-top: .5em;
+  background-color: rgba(37, 25, 25, 0.697);
+  font-size: .7em;
+} 
+
+button:hover {
+  color: black; 
+  background: steelblue;
+}
+
+#save {
+  margin-bottom: 2em;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: snow;
+  font-size: 1.2em;
+}
+
+.container {
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  width: 80%;
+
+}
+
+.form-container {
+  margin: auto;
+  margin-top: 1em;
+  text-align: center;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input {
+  font-size: 1.2em;
+}
+
+.hidden {
+  display: none;
+}
+
+#image {
+  max-width: 100%;
+  margin: auto;
+}
+
+#save-status {
+    margin-top: .2em;
+    display: block;
+    font-size: .5em;
+    text-align: center;
+    background-color: rgba(252, 4, 78, 0.5);
+}
+
+th, td, tr {
+    padding: 1em 1em .8em 1em;
+    text-align: left;
+    border-spacing: 0;
+} 
+tr td {
+  border-bottom:1pt solid black;
+}
