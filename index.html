@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Movie CRUD</title>
-    <script src="index.js" charset="utf-8"></script>
-    <script src="dataHandler.js" charset="utf-8"></script>
-    <script src="render.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="movie.js" charset="utf-8"></script>
+    <script src="contentHandler.js" charset="utf-8"></script>
+    <script src="renderMovies.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script
@@ -47,15 +47,15 @@
             <input type="text" id="year">
           </p>
           <p>
-          Rating<br>
-          <input type="text" id="rating">
-        </p>
-        <p>
-        Image URL<br>
-        <input type="text" id="url">
-      </p>
-        <button id="save">Save</button>
-        <button id="cancel">Cancel</button>
+            Rating<br>
+            <input type="text" id="rating">
+          </p>
+          <p>
+            Image URL<br>
+            <input type="text" id="url">
+          </p>
+          <button id="save">Save</button>
+          <button id="cancel">Cancel</button>
         </form>
 
       </div>
@@ -81,9 +81,7 @@
           </tr>
           </tbody>
         </table>
-
       </div>
     </div>
-
   </body>
 </html>
