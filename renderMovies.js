@@ -1,6 +1,6 @@
 const getMovies = () => {
     let displayMessage = document.getElementById("save-status")
-    axios.get(`http://localhost:3000/movies`)
+    axios.get(`https://enigmatic-cove-71123.herokuapp.com/movies`)
     .then(res => {
       document.querySelector('tbody').innerHTML = ''
       let moviesArray = res.data.result
